@@ -26,7 +26,7 @@ This project provides a secure and responsive platform for creating, editing, an
 
 ---
 
-## 📂 Project Structure
+## 📸 Screenshot
 
 
 <img width="2249" height="747" alt="image" src="https://github.com/user-attachments/assets/facc0c40-8c09-4f4c-bc2b-23dc0785ee73" />
