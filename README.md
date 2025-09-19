@@ -29,4 +29,5 @@ This project provides a secure and responsive platform for creating, editing, an
 ## 📸 Screenshot
 
 
-<img width="2249" height="747" alt="image" src="https://github.com/user-attachments/assets/facc0c40-8c09-4f4c-bc2b-23dc0785ee73" />
+<img width="2255" height="1394" alt="image" src="https://github.com/user-attachments/assets/85a18da7-31aa-41b5-b4c8-d6dce20b2d00" />
+
