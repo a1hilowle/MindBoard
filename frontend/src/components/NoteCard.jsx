@@ -14,7 +14,7 @@ const NoteCard = ({note, setNotes}) => {
             await api.delete(`/notes/${id}`);
             setNotes((prev) => prev.filter((note) => note._id !==id)); // get rid of deleted one
             toast.success("Notes deleted successfully");
-        } catch (error) {
+        } catch {
             toast.error("failed to delete note");
         }
     };
@@ -43,4 +43,4 @@ const NoteCard = ({note, setNotes}) => {
   );
 };
 
-export default NoteCard; 
+export default NoteCard;

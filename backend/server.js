@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5001;
 
 
 // middleware
-app.use( cors({origin: "http://localhost:5173",}));
+app.use(cors({ origin: process.env.CLIENT_ORIGIN || "http://localhost:5173" }));
 app.use(express.json()); // Don't forget this for POST/PUT requests
 app.use(rateLimiter);
 
@@ -27,7 +27,7 @@ app.use("/api/notes", notesRoutes);
 
 
 connectDB().then(() => {
-    app.listen(5001, () => {
+    app.listen(PORT, () => {
         console.log("Server started on PORT", PORT);
     });
 })
